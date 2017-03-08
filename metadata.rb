@@ -1,12 +1,14 @@
 name 'msoffice-wrapper'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'all_rights'
-description 'Installs/Configures msoffice-wrapper'
-long_description 'Installs/Configures msoffice-wrapper'
-version '0.1.0'
+mmaintainer 'Bob Nowadly'
+maintainer_email 'rmnowadly@sep.com'
+license 'Apache License 2.0'
+description 'Installs/Configures MS Office 2007 from an extracted ISO'
+long_description 'Installs/Configures MS Office 2007 '
+version '0.1.1'
 
 depends 'msoffice', '~> 0.1.0'
+
+supports 'Windows', '10'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
