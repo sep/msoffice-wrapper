@@ -1,5 +1,5 @@
 name 'msoffice-wrapper'
-mmaintainer 'Bob Nowadly'
+maintainer 'Bob Nowadly'
 maintainer_email 'rmnowadly@sep.com'
 license 'Apache License 2.0'
 description 'Installs/Configures MS Office 2007 from an extracted ISO'
