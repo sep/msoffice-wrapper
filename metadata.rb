@@ -4,7 +4,7 @@ maintainer_email 'rmnowadly@sep.com'
 license 'Apache License 2.0'
 description 'Installs/Configures MS Office 2007 from an extracted ISO'
 long_description 'Installs/Configures MS Office 2007 '
-version '0.1.1'
+version '0.1.2'
 
 depends 'msoffice', '~> 0.1.0'
 
