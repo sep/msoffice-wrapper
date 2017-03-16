@@ -20,7 +20,6 @@ template config_xml_file do
   )
 end
 
-
 # Install Microsoft Office
 package msoffice_package_name do
   source setup_exe_path

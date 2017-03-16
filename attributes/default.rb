@@ -1,5 +1,5 @@
 
-#MS Office 2013
+# MS Office 2013
 default['msoffice-wrapper']['installer_dir'] = 'c:\\Installers\\MsOffice'
 override['msoffice']['pid_key'] = ''
 override['msoffice']['auto_activate'] = 'false'

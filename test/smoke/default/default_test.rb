@@ -8,5 +8,3 @@
 describe package('Microsoft Office Professional Plus 2013') do
   it { should be_installed }
 end
-
-
