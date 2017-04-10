@@ -1,7 +1,7 @@
 ---
 driver:
   name: vagrant
-  synced_folders: 
+  synced_folders:
     - ["C:/Installers", "c:/Installers"]
 
 provisioner:
@@ -13,6 +13,8 @@ provisioner:
 
 verifier:
   name: inspec
+  format: junit
+  output: '%{platform}_%{suite}_inspec.xml'
 
 transport:
   name: winrm
